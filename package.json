@@ -1,0 +1,36 @@
+{
+  "name": "gdg",
+  "version": "1.0.0",
+  "description": "GDG Code LAb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dynameek/gdg-web-sockets.git"
+  },
+  "keywords": [
+    "GDG",
+    "Web",
+    "Sockets",
+    "Socket.io",
+    "Node"
+  ],
+  "author": "Oguntuberu Nathan O.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dynameek/gdg-web-sockets/issues"
+  },
+  "homepage": "https://github.com/dynameek/gdg-web-sockets#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "http": "0.0.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  }
+}

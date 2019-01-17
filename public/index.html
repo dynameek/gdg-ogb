@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GDG: WEBSOCKETS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <script src="/socket.io/socket.io.js"></script>
+        <script type="module" src="./assets/js/script.js"></script>
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <header>
+
+            </header>
+            <section class="main">
+                <div class="form-wrapper">
+                    <form name="post_form">
+                        <textarea name="post_body" placeholder="Enter a Message"></textarea>
+                        <div class="form-group m-row s-col">
+                            <input type="text" name="post_screen_name" class="input-m-75 input-s-100" placeholder="Enter a Screen Name">
+                            <input name="post_submit" type="button" class="input-m-75 input-s-100" value="Post">
+                        </div>
+                    </form>
+                </div>
+                <p>.</p>
+                <div id="posts">
+                    <div class="post">
+                        <span class="name"> Nathan:</span>
+                        Oh! Hey everyone.
+                    </div> 
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
