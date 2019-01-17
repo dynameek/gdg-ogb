@@ -1,3 +1,0 @@
-/**
- * @author Oguntuberu Nathan O.
- */

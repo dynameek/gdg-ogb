@@ -10,7 +10,10 @@ class sockets {
     }
     listen() {
         this.io.on('connection', (socket) => {
-            console.log('connected to socket.io on: ' + socket.id);
+            //
+            socket.on('new-post', (data) => {
+                socket.emit('add-post', data);
+            })
         });
     }
 }
