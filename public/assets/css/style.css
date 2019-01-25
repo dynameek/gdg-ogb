@@ -1,0 +1,101 @@
+/*	*/
+body {
+	background: #ededed;
+}
+
+div, section, header {
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+}
+
+textarea, input {
+	box-sizing: border-box;
+	width: 100%;
+	
+	border: 1px solid #ccc;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+
+input[type='button'] {
+	float: right;
+	border: 1px solid #307A06;
+	
+	background: #307A06;
+	color: #fff;
+}
+
+.page-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	width: 100%;
+}
+
+/*	*/
+header {
+	height: 60px;
+	
+	background: #0477A0;
+}
+
+
+/*	*/
+.main {
+	padding: 10px;
+}
+.main > hr {
+	border: none;
+	border-bottom: 1px solid #AFAEAA;
+}
+
+.form-wrapper {
+	padding: 10px;
+	padding-bottom: 5px;
+	
+	background: #fff;
+	box-shadow: 0.5px 0.5px 5px #aaa;
+}
+.m-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+.input-75 {
+	width: 75%;
+}
+.input-25 {
+	width: 25%;
+}
+
+/*	*/
+.post {
+	margin-bottom: 5px;
+	padding: 10px;
+	
+	background: #fff;
+	box-shadow: 0.5px 0.5px 5px #aaa;
+}
+
+span[class="name"] {
+	font-weight: bold;
+	color: #0B4B7A;
+}
+
+@media screen and (min-width: 768px) {
+	.main {
+		padding: 10px 100px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	header{
+		height: 80px;
+	}
+	.main {
+		padding: 10px 20%;
+	}
+}

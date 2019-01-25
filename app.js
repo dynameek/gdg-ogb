@@ -38,6 +38,7 @@ wSocket.listen();
 
 //  SERVE APPLICATION
 const port = 3000;
+
 http.listen(process.env.PORT || port, () => {
     console.log('Node is listening on port: ' + port);
 });

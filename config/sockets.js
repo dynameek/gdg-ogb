@@ -12,7 +12,7 @@ class sockets {
         this.io.on('connection', (socket) => {
             //
             socket.on('new-post', (data) => {
-                socket.emit('add-post', data);
+                this.io.emit('add-post', data);
             })
         });
     }
